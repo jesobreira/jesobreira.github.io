@@ -1,0 +1,29 @@
+# Site settings
+title: Jefrey S. Santos
+email: jefrey.santos@capitual.io
+description: > # this means to ignore newlines until "baseurl:"
+  Full stack dev, Blockchain engineer, CTO at Capitual
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: jefreyssantos
+github_username:  jesobreira
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+
+
